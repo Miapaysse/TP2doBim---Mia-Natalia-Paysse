@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:clase18_4/core/data/empleados_datasource.dart';
 import 'package:clase18_4/entities/Empleado.dart';
 import 'package:flutter/material.dart';
@@ -6,9 +8,10 @@ import 'package:flutter/material.dart';
 class InfoempleadosScreen extends StatelessWidget {
 static const String name = 'infoempleados';
 
-    late String empleadoId;
+    late Int empleadoId;
 
   InfoempleadosScreen({super.key, required String empleadoId});
+  
 
   @override
   Widget build(BuildContext context) {
