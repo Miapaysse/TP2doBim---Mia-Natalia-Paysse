@@ -8,9 +8,9 @@ import 'package:flutter/material.dart';
 class InfoempleadosScreen extends StatelessWidget {
 static const String name = 'infoempleados';
 
-    late Int empleadoId;
+ final String empleadoId;
 
-  InfoempleadosScreen({super.key, required String empleadoId});
+  const InfoempleadosScreen({super.key,  required this.empleadoId});
   
 
   @override
@@ -43,12 +43,12 @@ class _EmpleadoDetailView extends StatelessWidget {
           if (empleado.poster != null) Image.network(empleado.poster!, height: 400),
           const SizedBox(height: 16),
           Text(
-            empleado.nombre,
-            style: Theme.of(context).textTheme.titleLarge,
+            "${empleado.nombre} ${empleado.apellido}",
+            style: Theme.of(context).textTheme.headlineMedium,
           ),
           Text(
             'Area de trabajo: ${empleado.area}',
-            style: Theme.of(context).textTheme.bodyMedium,
+            style: Theme.of(context).textTheme.titleLarge,
           ),
           
         ],
