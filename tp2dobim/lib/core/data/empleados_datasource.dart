@@ -2,6 +2,7 @@
 
 
 import 'package:clase18_4/entities/Empleado.dart';
+import 'package:flutter/material.dart';
 
 final empleadolist = [
     Empleado(
@@ -15,7 +16,7 @@ final empleadolist = [
     Empleado(
       nombre:'Mia' , 
       apellido:'Payssé' , 
-      area: 'Dirección', 
+      area: 'Operaciones', 
       id: '2',
       poster: 'https://media.licdn.com/dms/image/D4D03AQEEASd6Fbn9Ug/profile-displayphoto-shrink_200_200/0/1702344396909?e=2147483647&v=beta&t=4HttxvO--yhIVDuY6QIJmXGTUvgsoWMz0BDNTf9sivI' , 
     ),
@@ -23,9 +24,73 @@ final empleadolist = [
     Empleado(
       nombre:'Facundo' ,
       apellido:'Maletta' ,
-      area: 'Recursos Humanos', 
+      area: 'Operaciones', 
       id: '3', 
       poster: 'https://pbs.twimg.com/profile_images/1102999529622786048/qNH7_Bbo_400x400.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Natán' ,
+      apellido:'Rosenhain' ,
+      area: 'Finanzas', 
+      id: '4', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Juan Cruz' ,
+      apellido:'Rodriguez' ,
+      area: 'Ventas', 
+      id: '5', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+    
+    Empleado(
+      nombre:'Ramiro' ,
+      apellido:'Lowden' ,
+      area: 'Contaduría', 
+      id: '5', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Santino' ,
+      apellido:'DePascale' ,
+      area: 'Administración', 
+      id: '6', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Feliciano' ,
+      apellido:'Miguez' ,
+      area: 'Marketing', 
+      id: '7', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Uriel' ,
+      apellido:'Dyner' ,
+      area: 'Ventas', 
+      id: '8', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Julián' ,
+      apellido:'Vinocur' ,
+      area: 'IT', 
+      id: '9', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
+    ),
+
+    Empleado(
+      nombre:'Felipe' ,
+      apellido:'Sala' ,
+      area: 'IT', 
+      id: '10', 
+      poster: 'https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg' , 
     ),
 ];
 
